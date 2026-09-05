@@ -14,7 +14,7 @@
 <script>
 window.GOPLUS_CONFIG = {
   PIXEL_ID:          "2016650609225629",   // Meta pixel / dataset ID
-  BOT_USERNAME:      "goplustradexbot",  // Telegram username, no @
+  TELEGRAM_LINK:     "https://t.me/+AJJHPCbGy0ZkNTBl",  // Telegram destination
   TRACKING_ENDPOINT: "https://track.topxtracker.online/click",
   SUPPORT_URL:       "#",
   PRIVACY_URL:       "privacy.html",
@@ -326,7 +326,7 @@ src="https://www.facebook.com/tr?id=2016650609225629&ev=PageView&noscript=1" alt
     } catch(e){}
   }
 
-  var deepLink = "https://t.me/" + C.BOT_USERNAME + "?start=" + encodeURIComponent(cid);
+  var deepLink = C.TELEGRAM_LINK;
 
   var btn      = document.getElementById("cta-main");
   var fill     = document.getElementById("ctaFill");
